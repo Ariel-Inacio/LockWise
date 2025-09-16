@@ -20,6 +20,7 @@ class _InicialState extends State<Inicial> {
           IconButton(
             icon: Icon(Icons.account_circle, size: 40.0, color: Colors.white),
             onPressed: () {
+              Navigator.pop(context);
               // Ação ao pressionar o ícone
             },
           ),
